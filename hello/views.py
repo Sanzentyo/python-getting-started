@@ -6,7 +6,7 @@ import os
 
 def index(request):
     times = int(os.environ.get('TIMES', 3))
-    return HttpResponse('Hello! ' * times)
+    return HttpResponse('Hello! ' * times + "/nas the nights reincarnation")
 """
 def index(request):
     r = requests.get('https://httpbin.org/status/418')
